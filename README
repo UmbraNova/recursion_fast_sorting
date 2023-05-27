@@ -1,0 +1,4 @@
+Algorithm of quick sorting (Hoare's sort) it selects the rightmost element as the the anchor item, breaking the list into three parts: elements smaller, equal and greater than anchor.
+In [5, 8, 9, 4, 2, 9, 1, 8], the anchor is 8 (far right), and results three lists:
+[5, 4, 2, 1], [8, 8], [9, 9] then the same steps using the recursion for the list with elements less [5, 4, 2, 1] and greater [9, 9] than the anchor and so on.
+Adding the results of the recursion in sorted_list = result_1 + result_2 + result_3.
