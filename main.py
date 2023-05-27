@@ -1,4 +1,4 @@
-nice_list = [5, 8, 9, 4, 2, 9, 1, 8]
+nice_list = [5, 8, 9, 4, 2, 9, 1, 8]  # Example
 
 
 def separator(lst):
